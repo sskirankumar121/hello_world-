@@ -1,0 +1,11 @@
+myname = str(input("enetr your name : "))
+mypass = int(input("enter your Password : "))
+name = str("kiran") 
+if myname == name:
+    print("hello ", myname ,"pls enter the password")
+    if mypass == 1234:
+       print("welcome")
+    else:
+       print("you enetred the wrong password")
+else:
+    print("eneter the correct name")
